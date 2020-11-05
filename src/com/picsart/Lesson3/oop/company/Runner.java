@@ -1,11 +1,11 @@
-package com.picsart.Lesson3.objects.company;
+package com.picsart.Lesson3.oop.company;
 
-import com.picsart.Lesson3.objects.company.model.Company;
-import com.picsart.Lesson3.objects.company.model.Department;
-import com.picsart.Lesson3.objects.company.model.Employee;
-import com.picsart.Lesson3.objects.company.service.CompanyService;
-import com.picsart.Lesson3.objects.company.service.DepartmentService;
-import com.picsart.Lesson3.objects.company.service.EmployeeService;
+import com.picsart.Lesson3.oop.company.model.Company;
+import com.picsart.Lesson3.oop.company.model.Department;
+import com.picsart.Lesson3.oop.company.model.Employee;
+import com.picsart.Lesson3.oop.company.service.CompanyService;
+import com.picsart.Lesson3.oop.company.service.DepartmentService;
+import com.picsart.Lesson3.oop.company.service.EmployeeService;
 
 public class Runner {
 

@@ -1,8 +1,8 @@
-package com.picsart.Lesson3.objects.hospital;
+package com.picsart.Lesson3.oop.hospital;
 
-import com.picsart.Lesson3.objects.hospital.model.Doctor;
-import com.picsart.Lesson3.objects.hospital.model.Hospital;
-import com.picsart.Lesson3.objects.hospital.model.Patient;
+import com.picsart.Lesson3.oop.hospital.model.Doctor;
+import com.picsart.Lesson3.oop.hospital.model.Hospital;
+import com.picsart.Lesson3.oop.hospital.model.Patient;
 
 public class HospitalRunner {
 

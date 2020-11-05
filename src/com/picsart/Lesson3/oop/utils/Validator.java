@@ -1,4 +1,4 @@
-package com.picsart.Lesson3.objects.utils;
+package com.picsart.Lesson3.oop.utils;
 
 public class Validator {
 

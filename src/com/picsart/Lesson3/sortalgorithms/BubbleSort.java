@@ -1,4 +1,4 @@
-package com.picsart.Lesson3;
+package com.picsart.Lesson3.sortalgorithms;
 
 public class BubbleSort {
 

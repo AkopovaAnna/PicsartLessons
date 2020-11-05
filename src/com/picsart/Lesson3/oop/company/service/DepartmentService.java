@@ -1,11 +1,11 @@
-package com.picsart.Lesson3.objects.company.service;
+package com.picsart.Lesson3.oop.company.service;
 
-import com.picsart.Lesson3.objects.company.model.Department;
-import com.picsart.Lesson3.objects.company.model.Employee;
+import com.picsart.Lesson3.oop.company.model.Department;
+import com.picsart.Lesson3.oop.company.model.Employee;
 
 import java.util.NoSuchElementException;
 
-import static com.picsart.Lesson3.objects.utils.Validator.isEmpty;
+import static com.picsart.Lesson3.oop.utils.Validator.isEmpty;
 
 public class DepartmentService {
 

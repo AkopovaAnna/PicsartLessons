@@ -1,4 +1,4 @@
-package com.picsart.Lesson3.objects.hospital.model;
+package com.picsart.Lesson3.oop.hospital.model;
 
 public class Doctor {
 

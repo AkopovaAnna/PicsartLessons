@@ -1,4 +1,4 @@
-package com.picsart.Lesson3.objects.company.model;
+package com.picsart.Lesson3.oop.company.model;
 
 public class Employee {
 
