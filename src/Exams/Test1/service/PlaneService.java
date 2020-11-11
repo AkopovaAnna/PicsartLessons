@@ -1,8 +1,6 @@
 package Exams.Test1.service;
 
 import Exams.Test1.model.Plane;
-import com.picsart.model.Employee;
-import com.picsart.model.Student;
 
 import java.util.Scanner;
 
