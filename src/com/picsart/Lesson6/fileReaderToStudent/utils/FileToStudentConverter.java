@@ -1,6 +1,6 @@
-package com.picsart.Lesson6.utils;
+package com.picsart.Lesson6.fileReaderToStudent.utils;
 
-import com.picsart.Lesson6.model.Student;
+import com.picsart.Lesson6.fileReaderToStudent.model.Student;
 
 public class FileToStudentConverter {
 

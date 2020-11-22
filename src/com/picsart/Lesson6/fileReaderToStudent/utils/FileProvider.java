@@ -1,4 +1,4 @@
-package com.picsart.Lesson6.utils;
+package com.picsart.Lesson6.fileReaderToStudent.utils;
 
 
 import java.io.*;

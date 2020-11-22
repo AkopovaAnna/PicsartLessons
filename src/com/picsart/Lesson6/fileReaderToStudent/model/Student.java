@@ -1,4 +1,4 @@
-package com.picsart.Lesson6.model;
+package com.picsart.Lesson6.fileReaderToStudent.model;
 
 public class Student {
 

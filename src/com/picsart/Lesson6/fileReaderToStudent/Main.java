@@ -1,9 +1,10 @@
-package com.picsart.Lesson6;
+package com.picsart.Lesson6.fileReaderToStudent;
 
-import com.picsart.Lesson6.model.Student;
-import com.picsart.Lesson6.service.StudentService;
-import com.picsart.Lesson6.utils.FileProvider;
-import com.picsart.Lesson6.utils.FileToStudentConverter;
+
+import com.picsart.Lesson6.fileReaderToStudent.model.Student;
+import com.picsart.Lesson6.fileReaderToStudent.service.StudentService;
+import com.picsart.Lesson6.fileReaderToStudent.utils.FileProvider;
+import com.picsart.Lesson6.fileReaderToStudent.utils.FileToStudentConverter;
 
 import java.io.IOException;
 

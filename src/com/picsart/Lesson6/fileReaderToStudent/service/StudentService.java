@@ -1,6 +1,6 @@
-package com.picsart.Lesson6.service;
+package com.picsart.Lesson6.fileReaderToStudent.service;
 
-import com.picsart.Lesson6.model.Student;
+import com.picsart.Lesson6.fileReaderToStudent.model.Student;
 
 
 public class StudentService {
