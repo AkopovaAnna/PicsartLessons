@@ -14,7 +14,6 @@ public abstract class Book {
 
     public Book() {
         this.bookId = count.incrementAndGet();
-        ;
     }
 
     public Integer getBookId() {

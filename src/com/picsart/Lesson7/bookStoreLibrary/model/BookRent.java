@@ -5,13 +5,13 @@ import java.util.Date;
 public class BookRent {
 
     public static final int EXPIRATION_DUE_DATE = 20;
+    public static final double PER_DAY_FINE = 1000;
 
     private Integer bookId;
+    private Integer borrowId;
     private Date rentDay;
     private Date actualReturnedDay;
-    private Date expirationDate;
-    private double additionMoney;
-    private int clientId;
+    private boolean finePaid;
 
 
     public int getBookId() {
@@ -22,6 +22,14 @@ public class BookRent {
         this.bookId = bookId;
     }
 
+    public Integer getBorrowId() {
+        return borrowId;
+    }
+
+    public void setBorrowId(Integer borrowId) {
+        this.borrowId = borrowId;
+    }
+
     public Date getRentDay() {
         return rentDay;
     }
@@ -30,13 +38,6 @@ public class BookRent {
         this.rentDay = rentDay;
     }
 
-    public Date getExpirationDate() {
-        return expirationDate;
-    }
-
-    public void setExpirationDate(Date expirationDate) {
-        this.expirationDate = expirationDate;
-    }
 
     public Date getActualReturnedDay() {
         return actualReturnedDay;
@@ -46,20 +47,11 @@ public class BookRent {
         this.actualReturnedDay = actualReturnedDay;
     }
 
-    public double getAdditionMoney() {
-        return additionMoney;
+    public boolean isFinePaid() {
+        return finePaid;
     }
 
-    public void setAdditionMoney(double additionMoney) {
-        this.additionMoney = additionMoney;
+    public void setFinePaid(boolean finePaid) {
+        this.finePaid = finePaid;
     }
-
-    public int getClientId() {
-        return clientId;
-    }
-
-    public void setClientId(int clientId) {
-        this.clientId = clientId;
-    }
-
 }

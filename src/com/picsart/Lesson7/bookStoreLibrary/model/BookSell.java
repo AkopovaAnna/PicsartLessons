@@ -5,11 +5,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class BookSell {
 
-    private static final int DUE_DATE = 14;
+    public static final int DUE_DATE = 14;
     private static final AtomicInteger count = new AtomicInteger(0);
 
     private final int bookSellId;
-    private int sellerId;
     private int bookId;
     private Date dateOfPurchase;
 
@@ -24,10 +23,6 @@ public class BookSell {
 
     public int getDUE_DATE() {
         return DUE_DATE;
-    }
-
-    public int getSellerId() {
-        return sellerId;
     }
 
     public int getBookId() {

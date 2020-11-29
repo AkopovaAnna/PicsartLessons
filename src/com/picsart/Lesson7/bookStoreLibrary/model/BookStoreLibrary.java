@@ -4,23 +4,25 @@ package com.picsart.Lesson7.bookStoreLibrary.model;
 public class BookStoreLibrary {
 
     private Book[] books;
+    private BorrowerCard[] borrowers;
     private double grossIncome;
     private int currentBookCount;
-    private int currentEmployeeCount;
+    private int currentBorrowerCount;
     private int totalNumber;
 
     public BookStoreLibrary() {
         books = new Book[100];
+        borrowers = new BorrowerCard[20];
         grossIncome = 0;
     }
 
 
-    public int getCurrentEmployeeCount() {
-        return currentEmployeeCount;
+    public BorrowerCard[] getBorrowers() {
+        return borrowers;
     }
 
-    public void setCurrentEmployeeCount(int currentEmployeeCount) {
-        this.currentEmployeeCount = currentEmployeeCount;
+    public void setBorrowers(BorrowerCard[] borrowers) {
+        this.borrowers = borrowers;
     }
 
     public int getTotalNumber() {
@@ -37,6 +39,14 @@ public class BookStoreLibrary {
 
     public void setCurrentBookCount(int currentBookCount) {
         this.currentBookCount = currentBookCount;
+    }
+
+    public int getCurrentBorrowerCount() {
+        return currentBorrowerCount;
+    }
+
+    public void setCurrentBorrowerCount(int currentBorrowerCount) {
+        this.currentBorrowerCount = currentBorrowerCount;
     }
 
     public Book[] getBooks() {

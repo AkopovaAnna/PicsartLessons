@@ -8,7 +8,11 @@ import com.picsart.Lesson7.bookStoreLibrary.service.EbookService;
 
 public class EbookServiceImpl implements EbookService {
 
-    BookStoreLibrary store = new BookStoreLibrary();
+    public BookStoreLibrary store;
+
+    public EbookServiceImpl(BookStoreLibrary store) {
+        this.store = store;
+    }
 
     @Override
     public void preview(Integer bookId) {
@@ -49,5 +53,24 @@ public class EbookServiceImpl implements EbookService {
 
         }
         return book.getBookId();
+    }
+
+    public Book getBookById(Integer bookId) {
+        for (int i = 0; i < store.getCurrentBookCount(); i++) {
+            if (bookId.equals(store.getBooks()[i].getBookId())) {
+                return store.getBooks()[i];
+            }
+        }
+        return null;
+    }
+
+    public void printEBookInfoById(Integer id) {
+        Ebook book = (Ebook) getBookById(id);
+        if (null != book) {
+            System.out.println(book.toString());
+        } else {
+            System.out.println("no book to print");
+        }
+
     }
 }
